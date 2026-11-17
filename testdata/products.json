@@ -1,0 +1,21 @@
+{
+  "searchTerms": [
+    { "term": "Top", "expectedMinResults": 1 },
+    { "term": "Tshirt", "expectedMinResults": 1 },
+    { "term": "Dress", "expectedMinResults": 1 }
+  ],
+  "contactMessages": [
+    {
+      "name": "Test User",
+      "email": "contact_test@mailinator.com",
+      "subject": "Order Inquiry",
+      "message": "I have a question about my recent order. Could you please provide an update on the shipping status?"
+    },
+    {
+      "name": "QA Tester",
+      "email": "qa_contact@mailinator.com",
+      "subject": "Product Feedback",
+      "message": "I would like to provide feedback about the product quality. The items received were in excellent condition."
+    }
+  ]
+}

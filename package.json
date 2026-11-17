@@ -1,0 +1,24 @@
+{
+  "name": "playwright-ecommerce-framework",
+  "version": "1.0.0",
+  "description": "Enterprise E-Commerce Automation Framework using Playwright and TypeScript",
+  "scripts": {
+    "test": "npx playwright test --project=chromium",
+    "test:all": "npx playwright test",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:headed": "npx playwright test --project=chromium --headed",
+    "test:debug": "npx playwright test --project=chromium --debug",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report reports/html-report",
+    "update:snapshots": "npx playwright test --update-snapshots"
+  },
+  "keywords": ["playwright", "automation", "testing", "e2e"],
+  "author": "Kunal Wandhare",
+  "license": "ISC",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.65.1",
+    "typescript": "^7.0.2"
+  }
+}
